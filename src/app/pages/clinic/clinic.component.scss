@@ -1,0 +1,23 @@
+.slider {
+    padding: 1rem 0 0 0;
+}
+
+.carousel-image-wrapper {
+    background: linear-gradient(rgb(30 70 181), rgb(0 0 0));
+    overflow: hidden;
+}
+
+.custome-carousel-caption {
+    bottom: 5rem;
+    z-index: 10;
+}
+
+.carousel-image-controler {
+    opacity: 0.6;
+    object-fit: cover;
+}
+
+.info-container {
+    border: solid 1px #ffd4d4;
+    background-color: #ffecec;
+}

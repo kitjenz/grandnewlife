@@ -1,0 +1,84 @@
+p {
+    color: white;
+}
+
+a {
+    color : white;
+}
+
+h2 {
+    color: white;
+}
+
+.ft-bg {
+    background: #1a213e;
+}
+
+.ft-address-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.ft-container {
+    background:var(--primary);
+    padding: 2rem 7rem 2rem 7rem;
+}   
+
+.ft-clinic-address-container {
+    display: flex;
+    width: 20vh;
+}
+
+.footer-logo-wrapper {
+    border-radius: 5px;
+    border: solid black;
+    width: 15vh;
+    height: 6%;
+    overflow: hidden;
+}
+
+.ft-line-QR {
+    width: 15vh;
+    border: solid 2px var(--secondary);
+    border-radius: 12px;
+}
+
+.ft-contact-wrapper {
+    display: flex;
+    margin: 0.5rem;
+}
+
+.ft-contact-icon {
+    width: 10vh;
+    color: white;
+}
+
+.ft-contact-icon-2 {
+    width: 4.5vh;
+    color: white;
+}
+
+.ft-logo-control {
+    width: 15%;
+}
+
+.ft-social-icon {
+    width: 5%;
+}
+
+.ft-top-container {
+    display: flex;
+    width: 100%;
+    max-width: 100%;
+    justify-content: space-between;
+}
+
+.footer-section {
+    background-color: var(--primary);
+}
+
+.social-icons {
+    filter: invert(65%) sepia(58%) saturate(869%) hue-rotate(293deg) brightness(94%) contrast(86%);
+}
+
+

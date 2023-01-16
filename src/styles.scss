@@ -1,1 +1,62 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --primary: #1a213e;
+    --secondary: #e279a4;
+  }
+
+html, body { height: 100%; }
+
+.bg-pri {
+  background-color: var(--primary);
+}
+
+.bg-second {
+  background-color: var(--secondary);
+}
+
+.colour-pri {
+  color: var(--primary);
+}
+
+.colour-second {
+  color: var(--secondary);
+}
+
+body { 
+  margin: auto;
+  background-color: #f7f7f7;
+}
+
+p {
+  line-height: 1.65rem;
+}
+
+section {
+  max-width: 1300px;
+  margin: auto;
+  background-color: white;
+  padding: 2rem;
+}
+
+.hr-between-section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: #ffffff00;
+}
+
+
+// Icon
+.ft-icon-wrapper {
+  width: 212px;
+}
+
+.ft-icon-control {
+  width: 100%;
+  object-fit: cover;
+}
+
+@media (max-width: 576px) { 
+  .carousel-image-controler {
+    height: 90vh;
+    }
+ }

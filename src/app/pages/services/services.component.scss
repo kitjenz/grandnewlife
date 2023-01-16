@@ -1,0 +1,47 @@
+.slider {
+    padding: 1rem 0 0 0;
+}
+
+li {
+    line-height: 1.7rem;
+}
+
+.carousel-image-wrapper {
+    background: linear-gradient(rgb(30 70 181), rgb(0 0 0));
+    overflow: hidden;
+}
+
+.custome-carousel-caption {
+    bottom: 5rem;
+    z-index: 10;
+}
+
+.carousel-image-controler {
+    opacity: 0.6;
+    object-fit: cover;
+}
+
+.info-icon-controller {
+    font-size: 2rem;
+    opacity: 0.7;
+    padding-right:1rem;
+    color: var(--secondary);
+}
+
+.info-container {
+    border: solid 1px #ffd4d4;
+    background-color: #ffecec;
+}
+
+.x6-img-container {
+    box-shadow: 6px 1px 13px #bfbfbf30;
+    overflow: hidden;
+    width: 175px;
+    height: 169px;
+    margin: auto;
+}
+
+.x6-img-controller{
+    object-fit: cover;
+    width: 100%;
+}

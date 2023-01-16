@@ -1,0 +1,166 @@
+
+// "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
+
+h2 {
+    font-size: 2rem;
+}
+
+.slider {
+    padding: 1rem 0 0 0;
+}
+
+.welcome-title {
+    color:var();
+}
+
+.custome-carousel-caption {
+    bottom: 5rem;
+    z-index: 10;
+}
+
+.carousel-image-wrapper {
+    background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8));
+    overflow: hidden;
+}
+
+.carousel-image-controler {
+    opacity: 0.8;
+    object-fit: cover;
+}
+
+
+
+.ft-title {
+    margin-top: 0.6rem;
+    margin-left: 0.6rem;
+}
+
+.quote-wrapper {
+    background-color: #f3e3e6;
+    padding: 2rem;
+    border-left: solid 1rem #f1cad2;
+}
+
+.quote-text {
+    line-height: 1.4;
+}
+
+.quote-text-wrapper {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.map-section {
+    overflow: hidden;
+    max-width: 1300;
+}
+
+.google-map{
+    width: 1300;
+    height: 450;
+}
+
+.review-image-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 25% 25% 25%;
+    padding-block: 2rem;
+    width: min(95%, 70rem);
+    margin-inline:auto;
+}
+
+// Divider 
+
+.title-divider {
+    border-bottom: solid 4px var(--secondary);
+    width: 25%;
+    margin: 0 auto 2rem auto;
+}
+
+// Image section
+.case-img-container {
+    box-shadow: 6px 7px 5px #cbcbcb4f;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.x1-img-container {
+    box-shadow: 6px 7px 5px #cbcbcb4f;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+}
+
+.x1-img-controller {
+    object-fit: cover;
+    width: 100%;
+}
+
+.x3-img-container {
+    box-shadow: 6px 7px #fea4b3;
+    overflow: hidden;
+    width: 385px;
+    height: 380px;
+}
+
+.x3-img-controller{
+    object-fit: cover;
+    width: 100%;
+}
+
+.x6-img-container {
+    box-shadow: 6px 1px 13px #bfbfbf30;
+    overflow: hidden;
+    width: 175px;
+    height: 169px;
+    margin: auto;
+}
+
+.x6-img-controller{
+    object-fit: cover;
+    width: 100%;
+}
+
+.test-img-container {
+    box-shadow: 6px 7px 5px #cbcbcb4f;
+    overflow: hidden;
+    width: 325px;
+    height: 512px;
+}
+
+.review-gride-col-span-2 {
+    grid-column: 1/1;
+}
+
+.review-image-control {
+    width: 53vh;
+    
+}
+
+.review-image-container {
+    box-shadow: 6px 7px #fea4b3;
+    overflow: hidden;
+}
+
+.review-4-image-control {
+    width: 62vh;
+}
+
+.cases-image-control {
+    width: 38vh;
+}
+
+.director-image-container {
+    box-shadow: 6px 7px 9px #d7d4d55e;
+    overflow: hidden;
+    border-radius: 25px;
+    max-width: 47vh;
+}
+
+.director-image-control {
+    width: 47vh;
+}
+
+
