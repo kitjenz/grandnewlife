@@ -1,6 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
     --primary: #1a213e;
+    --primary-bg: #737eaa;
     --secondary: #e279a4;
   }
 
@@ -53,6 +54,11 @@ section {
 .ft-icon-control {
   width: 100%;
   object-fit: cover;
+}
+
+.slider-custom-bg {
+  padding:1.5rem;
+  background-color: #1a213e6c;
 }
 
 @media (max-width: 576px) { 
