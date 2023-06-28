@@ -1,0 +1,21 @@
+.navbar-content {
+    max-width: 1300px;
+}
+
+.nav-custom-bg {
+     background-color: var(--secondary);
+     height: 35px;
+}
+
+.navbar-collapse {
+    justify-content: end;
+}
+
+li {
+    padding:0.5rem 0.5rem 0rem 0.5rem;
+}
+
+.info-details {
+    padding-top: 2px;
+    padding-left: 10px;
+}
