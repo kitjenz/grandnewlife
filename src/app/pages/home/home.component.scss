@@ -18,6 +18,30 @@ h2 {
     z-index: 10;
 }
 
+h3{
+    font: 400 1.5rem 'Mitr', sans-serif;
+    letter-spacing: normal;
+    margin: 0 0 16px;
+}
+
+.to_h1 {
+    font: 700 3rem / 1 'Mitr', sans-serif;
+    letter-spacing: normal;
+    margin: 0 0 16px;
+}
+
+.to_h2 {
+    font: 700 2rem / 1 'Mitr', sans-serif;
+    letter-spacing: normal;
+    margin: 0 0 16px;
+}
+
+.to_h3{
+    font: 400 16px / 28px 'Mitr', sans-serif;
+    letter-spacing: normal;
+    margin: 0 0 16px;
+}
+
 .carousel-image-wrapper {
     background: linear-gradient(rgba(29, 38, 113, 0.8), rgba(195, 55, 100, 0.8));
     overflow: hidden;
@@ -27,8 +51,6 @@ h2 {
     opacity: 0.8;
     object-fit: cover;
 }
-
-
 
 .ft-title {
     margin-top: 0.6rem;
@@ -162,5 +184,3 @@ h2 {
 .director-image-control {
     width: 47vh;
 }
-
-
