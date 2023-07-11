@@ -15,6 +15,7 @@ import { HospitalsComponent } from './pages/hospitals/hospitals.component';
 import { IdHospitalComponent } from './pages/id-hospital/id-hospital.component';
 import { NanHospitalComponent } from './pages/nan-hospital/nan-hospital.component';
 import { ViewHospitalComponent } from './pages/view-hospital/view-hospital.component';
+import { BanobagiHospitalComponent } from './pages/banobagi-hospital/banobagi-hospital.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { ViewHospitalComponent } from './pages/view-hospital/view-hospital.compo
     IdHospitalComponent,
     NanHospitalComponent,
     ViewHospitalComponent,
+    BanobagiHospitalComponent,
     
   ],
   imports: [
