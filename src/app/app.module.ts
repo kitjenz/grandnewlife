@@ -16,6 +16,8 @@ import { IdHospitalComponent } from './pages/id-hospital/id-hospital.component';
 import { NanHospitalComponent } from './pages/nan-hospital/nan-hospital.component';
 import { ViewHospitalComponent } from './pages/view-hospital/view-hospital.component';
 import { BanobagiHospitalComponent } from './pages/banobagi-hospital/banobagi-hospital.component';
+import { EuHospitalComponent } from './pages/eu-hospital/eu-hospital.component';
+import { EtonneHospitalComponent } from './pages/etonne-hospital/etonne-hospital.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +33,8 @@ import { BanobagiHospitalComponent } from './pages/banobagi-hospital/banobagi-ho
     NanHospitalComponent,
     ViewHospitalComponent,
     BanobagiHospitalComponent,
+    EuHospitalComponent,
+    EtonneHospitalComponent,
     
   ],
   imports: [
