@@ -17,7 +17,9 @@
               <a class="dropdown-item p-3" routerLink="/id-hospital">โรงพยาบาล ไอดี</a> 
               <a class="dropdown-item p-3" routerLink="/view-hospital">โรงพยาบาล View</a> 
               <a class="dropdown-item p-3" routerLink="/nana-hospital">โรงพยาบาล นานะ</a>
-              <a class="dropdown-item p-3" routerLink="/banobagi-hospital">โรงพยาบาลบาโนบากิ</a>  
+              <a class="dropdown-item p-3" routerLink="/banobagi-hospital">โรงพยาบาลบาโนบากิ</a>
+              <a class="dropdown-item p-3" routerLink="/eu-hospital">โรงพยาบาล EU</a>
+              <a class="dropdown-item p-3" routerLink="/etonne-hospital">โรงพยาบาล Etonne</a>  
             </div> 
           </div>
         </li>
@@ -25,7 +27,14 @@
           <a class="nav-link text-white" routerLink="/clinic" aria-current="page">คลินิก</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-white" routerLink="/services" aria-current="page">การบริการ</a>
+          <div class="dropdown">
+            <a class="nav-link text-white dropdown-toggle" routerLink="#" aria-current="page" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">การบริการ</a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"> 
+              <a class="dropdown-item p-3" routerLink="/services">การบริการ</a>
+              <a class="dropdown-item p-3" routerLink="/nose-surgery">ศัลยกรรมจมูก</a> 
+              <a class="dropdown-item p-3" routerLink="/facial-none-surgery">ศัลยกรรมโครงหน้า</a> 
+            </div> 
+          </div>
         </li>
         
         <li class="nav-item">
