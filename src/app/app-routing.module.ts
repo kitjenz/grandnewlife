@@ -11,6 +11,8 @@ import { EtonneHospitalComponent } from './pages/etonne-hospital/etonne-hospital
 import { EuHospitalComponent } from './pages/eu-hospital/eu-hospital.component';
 import { NoseSurgeryComponent } from './pages/nose-surgery/nose-surgery.component';
 import { FacialNoneSurgeryComponent } from './pages/facial-none-surgery/facial-none-surgery.component';
+import { EyelidSurgeryComponent } from './pages/eyelid-surgery/eyelid-surgery.component';
+import { FaceliftSurgeryComponent } from './pages/facelift-surgery/facelift-surgery.component';
 
 const routes: Routes = [
   { path: "", component:HomeComponent},
@@ -24,6 +26,8 @@ const routes: Routes = [
   { path: "eu-hospital", component: EuHospitalComponent },
   { path: "nose-surgery", component: NoseSurgeryComponent },
   { path: "facial-none-surgery", component: FacialNoneSurgeryComponent },
+  { path: "eyelid-surgery", component: EyelidSurgeryComponent },
+  { path: "facelift-surgery", component: FaceliftSurgeryComponent},
 ];
 
 @NgModule({

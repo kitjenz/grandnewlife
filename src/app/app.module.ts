@@ -20,6 +20,8 @@ import { EuHospitalComponent } from './pages/eu-hospital/eu-hospital.component';
 import { EtonneHospitalComponent } from './pages/etonne-hospital/etonne-hospital.component';
 import { NoseSurgeryComponent } from './pages/nose-surgery/nose-surgery.component';
 import { FacialNoneSurgeryComponent } from './pages/facial-none-surgery/facial-none-surgery.component';
+import { EyelidSurgeryComponent } from './pages/eyelid-surgery/eyelid-surgery.component';
+import { FaceliftSurgeryComponent } from './pages/facelift-surgery/facelift-surgery.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +41,8 @@ import { FacialNoneSurgeryComponent } from './pages/facial-none-surgery/facial-n
     EtonneHospitalComponent,
     NoseSurgeryComponent,
     FacialNoneSurgeryComponent,
+    EyelidSurgeryComponent,
+    FaceliftSurgeryComponent,
     
   ],
   imports: [
