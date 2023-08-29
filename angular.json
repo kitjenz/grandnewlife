@@ -25,7 +25,8 @@
             "inlineStyleLanguage": "scss",
             "assets": [
               "src/gnl-favicon.png",
-              "src/assets"
+              "src/assets",
+              "src/sitemap.xml"
             ],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
@@ -111,4 +112,3 @@
     "analytics": "a1a86a9c-e3ad-45cd-8972-88633bee4668"
   }
 }
-
