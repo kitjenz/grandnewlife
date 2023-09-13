@@ -22,6 +22,10 @@ import { NoseSurgeryComponent } from './pages/nose-surgery/nose-surgery.componen
 import { FacialNoneSurgeryComponent } from './pages/facial-none-surgery/facial-none-surgery.component';
 import { EyelidSurgeryComponent } from './pages/eyelid-surgery/eyelid-surgery.component';
 import { FaceliftSurgeryComponent } from './pages/facelift-surgery/facelift-surgery.component';
+import { NewsComponent } from './pages/news/news.component';
+import { Popnosesurgery2023Component } from './pages/popnosesurgery2023/popnosesurgery2023.component';
+import { DoubleEyelidsSurgeryComponent } from './pages/double-eyelids-surgery/double-eyelids-surgery.component';
+import { KoreaselfsergeryVsAgencysergeryComponent } from './pages/koreaselfsergery-vs-agencysergery/koreaselfsergery-vs-agencysergery.component';
 
 @NgModule({
   declarations: [
@@ -43,6 +47,10 @@ import { FaceliftSurgeryComponent } from './pages/facelift-surgery/facelift-surg
     FacialNoneSurgeryComponent,
     EyelidSurgeryComponent,
     FaceliftSurgeryComponent,
+    NewsComponent,
+    Popnosesurgery2023Component,
+    DoubleEyelidsSurgeryComponent,
+    KoreaselfsergeryVsAgencysergeryComponent,
     
   ],
   imports: [
