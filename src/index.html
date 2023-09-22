@@ -27,8 +27,7 @@
     gtag('js', new Date());
 
     gtag('config', 'G-ZTV24DGHXR');
-  </script>
-  
+  </script>  
 </head>
 <body class="mat-typography">
   <app-pri-nav></app-pri-nav>
@@ -40,4 +39,288 @@
   <!-- JavaScript Bundle with Popper -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<style>
+#ssb-container {
+  position: fixed;
+  top: 30%;
+  z-index: 1;
+}
+
+.ssb-btns-right {
+  right: 0;
+}
+
+.ssb-btns-left {
+  left: 0;
+}
+
+#ssb-container ul {
+  background-color: white;
+  padding: 0;
+  margin: 0;
+}
+
+#ssb-container ul li {
+  list-style: none;
+  margin: 0;
+}
+
+#ssb-container ul li {
+  line-height: 45px;
+}
+
+#ssb-container ul li p {
+  margin: 0;
+}
+
+#ssb-container ul li a {
+  padding: 0 15px 0 0;
+  display: block;
+  line-height: 45px;
+  text-align: left;
+  white-space: nowrap;
+  text-decoration: none;
+}
+
+#ssb-container ul li span {
+  line-height: 45px;
+  width: 50px;
+  text-align: center;
+  display: inline-block;
+}
+
+#ssb-container.ssb-btns-left ul li a {
+  text-align: right;
+  padding: 0 0 0 15px;
+}
+
+#ssb-container.ssb-btns-left ul li span {
+  float: right;
+}
+
+#ssb-container ul li a:hover {
+  text-decoration: none;
+}
+
+#ssb-container .ssb-share-btn {
+  position: relative;
+}
+
+#ssb-container .ssb-share-btn span,
+#ssb-container.ssb-btns-left .ssb-share-btn span {
+  float: none;
+}
+
+#ssb-container .ssb-share-btn a {
+  padding: 0;
+}
+
+#ssb-container.ssb-btns-left .ssb-share-btn i.ssb-share-icon {
+  float: right !important;
+}
+
+#ssb-container.ssb-anim-icons ul li {
+  transition: transform 100ms;
+}
+
+#ssb-container.ssb-anim-icons.ssb-btns-right ul li:hover {
+  transform: translate(-15px, 0);
+}
+
+#ssb-container.ssb-anim-icons.ssb-btns-left ul li:hover {
+  transform: translate(15px, 0);
+}
+
+#ssb-container ul li.ssb-share-btn:hover .ssb-social-popup {
+  display: block;
+}
+
+.ssb-social-popup {
+  position: absolute;
+  top: 100%;
+  left: 100%;
+  margin: 0 0 0 -50px;
+  width: 155px;
+  display: none;
+}
+
+#ssb-container.ssb-btns-right .ssb-social-popup {
+  right: -100%;
+  margin: 0 0 0 -110px;
+  left: 0;
+}
+
+#ssb-container .ssb-social-popup a {
+  padding: 0 !important;
+  text-align: left !important;
+}
+.fa-line {
+  color: #00c300;
+}
+.fa-instagram{
+  color: #e1306c;
+}
+
+@media (max-width: 990px) {
+  .ssb-disable-on-mobile {
+    display: none;
+  }
+  #ssb-container {
+    position: fixed;
+    top: auto;
+    bottom: 0px;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+  }
+
+  #ssb-container ul{
+    display: flex;
+  }
+
+  #ssb-container ul li{
+    width: 100%;
+  }
+
+  #ssb-container ul li span{
+    width: auto;
+    font-size: xx-large;
+  }
+
+  #ssb-container ul li p{
+    text-align: center;
+  }
+
+  #ssb-container ul li p a{
+    display: inline-grid;
+  }
+  @media (max-width: 450px) {
+    
+    #ssb-container ul li a{
+      font-size: smaller;
+      line-height: 25px;
+    }
+
+    #ssb-container ul li span {
+      font-size: larger;
+    }
+  }
+}
+
+</style>
+<div id="ssb-container" class="ssb-btns-right ssb-anim-slide">
+  <ul class="ssb-dark-hover">
+    <li id="ssb-btn-1">
+      <p>
+        <a href="https://line.me/ti/p/~@Grandnewlife"><span class="fab fa-line"></span> @Grandnewlife</a>
+      </p>
+    </li>
+    <li id="ssb-btn-2">
+      <p>
+        <a href="https://www.facebook.com/KoreaSurgeryGrandnewlife/"><span class="fab fa-facebook"></span> Facebook</a>
+      </p>
+    </li>
+    <li id="ssb-btn-2">
+      <p>
+        <a href="https://www.instagram.com/grandnewlife/?hl=en"><span class="fab fa-instagram"></span> Instagram</a>
+      </p>
+    </li>
+    <li id="ssb-btn-0">
+      <p>
+        <a href="tel:0987849936"><span class="fas fa-phone"></span> Phone</a>
+      </p>
+    </li>
+  </ul>
+</div>
+<script>
+// SSB UI jQuery
+jQuery(function ($) {
+
+var ssb_ui_data = {"z_index":"99"};
+
+// Animation Slide
+var ssb_panel = $('#ssb-container'),
+    ssb_panel_w = ssb_panel.width(),
+    sbb_display_margin = 50,
+    window_width = jQuery(window).width();
+
+ssb_panel.css('z-index', ssb_ui_data.z_index);
+
+if (ssb_panel.hasClass('ssb-btns-left') && (ssb_panel.hasClass('ssb-anim-slide') || ssb_panel.hasClass('ssb-anim-icons'))) {
+
+    ssb_panel.css('left', '-' + (ssb_panel_w - sbb_display_margin) + 'px');
+
+} else if (ssb_panel.hasClass('ssb-btns-right') && (ssb_panel.hasClass('ssb-anim-slide') || ssb_panel.hasClass('ssb-anim-icons'))) {
+
+    ssb_panel.css('right', '-' + (ssb_panel_w - sbb_display_margin) + 'px');
+
+}
+
+
+// Slide when hover
+if (window_width >= 990) {
+    ssb_panel.hover(function () {
+
+        if (ssb_panel.hasClass('ssb-btns-left') && ssb_panel.hasClass('ssb-anim-slide')) {
+
+            ssb_panel.stop().animate({'left': 0}, 300);
+
+        } else if (ssb_panel.hasClass('ssb-btns-right') && ssb_panel.hasClass('ssb-anim-slide')) {
+
+            ssb_panel.stop().animate({'right': 0}, 300);
+
+        }
+
+    }, function () {
+
+        if (ssb_panel.hasClass('ssb-btns-left') && ssb_panel.hasClass('ssb-anim-slide')) {
+
+            ssb_panel.animate({'left': '-' + (ssb_panel_w - sbb_display_margin) + 'px'}, 300);
+
+        } else if (ssb_panel.hasClass('ssb-btns-right') && ssb_panel.hasClass('ssb-anim-slide')) {
+
+            ssb_panel.animate({'right': '-' + (ssb_panel_w - sbb_display_margin) + 'px'}, 300);
+
+        }
+
+    });
+
+} else {
+    ssb_panel.click(function (e) {
+
+        if (jQuery(this).hasClass('ssb-open')) {
+            jQuery(this).removeClass('ssb-open');
+            if (ssb_panel.hasClass('ssb-btns-left') && ssb_panel.hasClass('ssb-anim-slide')) {
+
+                ssb_panel.animate({'left': '-' + (ssb_panel_w - sbb_display_margin) + 'px'}, 300);
+
+            } else if (ssb_panel.hasClass('ssb-btns-right') && ssb_panel.hasClass('ssb-anim-slide')) {
+
+                ssb_panel.animate({'right': '-' + (ssb_panel_w - sbb_display_margin) + 'px'}, 300);
+
+            }
+        } else {
+            e.preventDefault();
+            jQuery(this).addClass('ssb-open');
+
+            if (ssb_panel.hasClass('ssb-btns-left') && ssb_panel.hasClass('ssb-anim-slide')) {
+
+                ssb_panel.stop().animate({'left': 0}, 300);
+
+            } else if (ssb_panel.hasClass('ssb-btns-right') && ssb_panel.hasClass('ssb-anim-slide')) {
+
+                ssb_panel.stop().animate({'right': 0}, 300);
+
+            }
+        }
+
+    });
+}
+
+
+});
+</script>
+
 </html>
