@@ -12,7 +12,7 @@ export class DoubleEyelidsSurgeryComponent implements OnInit {
 
   ngOnInit(): void {
 
-    this.metaTitle.setTitle('ศัลยกรรมตาสองชั้นเป็นการสร้างความโดดเด่นที่แตกต่างบนใบหน้า');
+    this.metaTitle.setTitle('ทำศัลยกรรมตาสองชั้นเพื่อเพิ่มเสน่ห์ให้น่ามอง เป็นเอกลักษณ์');
     this.metaTagService.addTags([
       { name: 'description', content: `การทำตาสองชั้นที่เกาหลีจะทำให้ดวงตาของคุณดูเป็นธรรมชาติและมีเสน่ห์น่ามองมากขึ้น บทความนี้จะพาสำรวจเหตุผลที่ต้องทำกับศัลยแพทย์เกาหลีและใครบ้างที่ควรทำตาที่สุด` },
     ]);
