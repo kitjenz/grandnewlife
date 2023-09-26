@@ -26,6 +26,9 @@ import { NewsComponent } from './pages/news/news.component';
 import { Popnosesurgery2023Component } from './pages/popnosesurgery2023/popnosesurgery2023.component';
 import { DoubleEyelidsSurgeryComponent } from './pages/double-eyelids-surgery/double-eyelids-surgery.component';
 import { KoreaselfsergeryVsAgencysergeryComponent } from './pages/koreaselfsergery-vs-agencysergery/koreaselfsergery-vs-agencysergery.component';
+import { SafeBreastSurgeryComponent } from './pages/safe-breast-surgery/safe-breast-surgery.component';
+import { TrendKoreasurgery2023Component } from './pages/trend-koreasurgery2023/trend-koreasurgery2023.component';
+import { Top6hospitalsurgeryComponent } from './pages/top6hospitalsurgery/top6hospitalsurgery.component';
 
 @NgModule({
   declarations: [
@@ -51,6 +54,9 @@ import { KoreaselfsergeryVsAgencysergeryComponent } from './pages/koreaselfserge
     Popnosesurgery2023Component,
     DoubleEyelidsSurgeryComponent,
     KoreaselfsergeryVsAgencysergeryComponent,
+    SafeBreastSurgeryComponent,
+    TrendKoreasurgery2023Component,
+    Top6hospitalsurgeryComponent,
     
   ],
   imports: [
