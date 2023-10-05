@@ -183,3 +183,21 @@ h3{
 .director-image-control {
     width: 47vh;
 }
+
+.news-home-link {
+    color: #000;
+    text-decoration: none;
+}
+
+// Hospital Slider Mobile Responsive
+@media only screen and (min-width: 920px) {
+    .mobile-homepage-banner-slider, .mobile-hospital-slider {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    .desktop-homepage-banner-slider, .desktop-hospital-slider {
+        display: none;
+    }
+  }
