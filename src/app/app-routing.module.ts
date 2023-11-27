@@ -20,6 +20,13 @@ import { KoreaselfsergeryVsAgencysergeryComponent } from './pages/koreaselfserge
 import { Top6hospitalsurgeryComponent } from './pages/top6hospitalsurgery/top6hospitalsurgery.component';
 import { SafeBreastSurgeryComponent } from './pages/safe-breast-surgery/safe-breast-surgery.component';
 import { TrendKoreasurgery2023Component } from './pages/trend-koreasurgery2023/trend-koreasurgery2023.component';
+import { AgencyKoreaPlasticsurgerychoseComponent } from './pages/agency-korea-plasticsurgerychose/agency-korea-plasticsurgerychose.component';
+import { KoreacelebHotfaceComponent } from './pages/koreaceleb-hotface/koreaceleb-hotface.component';
+import { JawSurgeryComponent } from './pages/jaw-surgery/jaw-surgery.component';
+import { Hot6koreahospitalforplasticsurgeryComponent } from './pages/hot6koreahospitalforplasticsurgery/hot6koreahospitalforplasticsurgery.component';
+import { LiftskinDelayagingComponent } from './pages/liftskin-delayaging/liftskin-delayaging.component';
+import { KoreaplasticsurgerypriceComponent } from './pages/koreaplasticsurgeryprice/koreaplasticsurgeryprice.component';
+import { FaceliftRhytidectomySurgeryComponent } from './pages/facelift-rhytidectomy-surgery/facelift-rhytidectomy-surgery.component';
 
 const routes: Routes = [
   { path: "", component:HomeComponent},
@@ -42,6 +49,13 @@ const routes: Routes = [
   { path: "top6hospitalsurgery", component: Top6hospitalsurgeryComponent},
   { path: "safe-breast-surgery", component: SafeBreastSurgeryComponent},
   { path: "trend-koreasurgery2023", component: TrendKoreasurgery2023Component},
+  { path: "agency-korea-plasticsurgerychose", component: AgencyKoreaPlasticsurgerychoseComponent},
+  { path: "koreaceleb-hotface", component:  KoreacelebHotfaceComponent},
+  { path: "jaw-surgery", component:  JawSurgeryComponent},
+  { path: "hot6koreahospitalforplasticsurgery", component:  Hot6koreahospitalforplasticsurgeryComponent},
+  { path: "liftskin-delayaging", component:  LiftskinDelayagingComponent},
+  { path: "koreaplasticsurgeryprice", component:  KoreaplasticsurgerypriceComponent},
+  { path: "facelift-rhytidectomy-surgery", component:  FaceliftRhytidectomySurgeryComponent},
 ];
 
 @NgModule({

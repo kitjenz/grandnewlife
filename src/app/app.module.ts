@@ -29,6 +29,13 @@ import { KoreaselfsergeryVsAgencysergeryComponent } from './pages/koreaselfserge
 import { SafeBreastSurgeryComponent } from './pages/safe-breast-surgery/safe-breast-surgery.component';
 import { TrendKoreasurgery2023Component } from './pages/trend-koreasurgery2023/trend-koreasurgery2023.component';
 import { Top6hospitalsurgeryComponent } from './pages/top6hospitalsurgery/top6hospitalsurgery.component';
+import { AgencyKoreaPlasticsurgerychoseComponent } from './pages/agency-korea-plasticsurgerychose/agency-korea-plasticsurgerychose.component';
+import { KoreacelebHotfaceComponent } from './pages/koreaceleb-hotface/koreaceleb-hotface.component';
+import { JawSurgeryComponent } from './pages/jaw-surgery/jaw-surgery.component';
+import { Hot6koreahospitalforplasticsurgeryComponent } from './pages/hot6koreahospitalforplasticsurgery/hot6koreahospitalforplasticsurgery.component';
+import { LiftskinDelayagingComponent } from './pages/liftskin-delayaging/liftskin-delayaging.component';
+import { KoreaplasticsurgerypriceComponent } from './pages/koreaplasticsurgeryprice/koreaplasticsurgeryprice.component';
+import { FaceliftRhytidectomySurgeryComponent } from './pages/facelift-rhytidectomy-surgery/facelift-rhytidectomy-surgery.component';
 
 @NgModule({
   declarations: [
@@ -57,6 +64,13 @@ import { Top6hospitalsurgeryComponent } from './pages/top6hospitalsurgery/top6ho
     SafeBreastSurgeryComponent,
     TrendKoreasurgery2023Component,
     Top6hospitalsurgeryComponent,
+    AgencyKoreaPlasticsurgerychoseComponent,
+    KoreacelebHotfaceComponent,
+    JawSurgeryComponent,
+    Hot6koreahospitalforplasticsurgeryComponent,
+    LiftskinDelayagingComponent,
+    KoreaplasticsurgerypriceComponent,
+    FaceliftRhytidectomySurgeryComponent,
     
   ],
   imports: [
